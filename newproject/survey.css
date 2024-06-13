@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #DAD7CD;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* headline =Health Survey*/
+#HS{
+    color: #ffffff;
+    font-size: 5vw;
+    text-align: center;
+    margin: 10px;
+    text-shadow: 1px 1px 2px #d2f993, 0 0 25px #344E41, 0 0 5px #75a32a;
+}
+#HS:hover{
+   
+}
+
+
+#navbar{
+    background-color: #75a32a;
+    height: 50px;
+    padding: 7px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 150px;
+    color: white;
+}
+a:hover{
+    color: #344E41;
+}
+
+#logo{
+    color: greenyellow;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-top: 7px;
+}
+#logo:hover{
+    text-shadow: 1px 1px 2px #d2f993, 0 0 25px #344E41, 0 0 5px #75a32a;
+}
+button{
+    background-color: #d2f993;
+    border-radius: 7px;
+    padding: 5px;
+    
+}
+button:hover{
+    background-color: #75a32a;
+}
+#search{
+    border-radius: 7px;
+    padding: 5px;
+    background-color: #DAD7CD;
+}
+
+
+p {
+    text-align: justify;
+}
+
+/* introduction */
+.intro{ 
+    border: 5px solid #3A5A40;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #A3B18A;
+    width: 50%;
+    float: left;
+    margin-right: 50px;
+    margin-top: 10px;
+    display: inline;
+}
+h4{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+h5{     
+    /* sentence above submit button */
+    text-align: right;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: bottom 0;
+}
+.intro2{
+    border: 5px solid #3A5A40;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #A3B18A;
+    width: 40%;
+    float: right;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    display: inline;
+}
+/* div section of submit button */
+.intro3
+{
+    /* border-radius: 20px;
+    border: 2px solid black; */
+    padding:0;
+    margin-top: 10px; 
+    padding: 0%;
+    width: 44%;
+    float: right;
+}
+ #nxt{
+    float: right;
+    background-color: #75a32a;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+ }
+
+img{
+    height: 150px;
+    float: left;
+
+}
+/* information table */
+
+div{
+    overflow-x: auto;
+}
+caption{
+    text-align: center;
+    font-size: 100px;
+}
+table,th,td{
+    margin: auto;
+    border: 5px solid gainsboro ;
+    padding: 5px;
+    border-collapse: collapse;
+}
+th{
+    background-color: rgb(230, 141, 25);
+    text-align: center;
+}
+
+tr:nth-child(odd){
+background-color: beige;    
+}
+
+tr:hover {
+    background-color: bisque;
+    font-size: 105%;
+}

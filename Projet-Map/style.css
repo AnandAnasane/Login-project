@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 20px;
+
+}
+
+.header
+{
+    padding: 30px;
+    height: 700px;
+    width: 800px;
+    background-color: pink;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+.head
+{   display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    margin: auto;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.ops
+{
+
+    max-width: 700px;
+    margin: auto;
+    height: 550px;
+    border: 2px solid black;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 20px 40px
+
+
+}
+.map
+{
+    width: 600px;
+    height: 40px;
+    border: 2px solid gray;
+    margin-bottom: 10px;
+}

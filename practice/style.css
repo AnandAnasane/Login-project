@@ -1,0 +1,15 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.converter{
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+    border: 2px solid blue;
+    padding: 50px;
+}

@@ -1,0 +1,65 @@
+
+
+.header{
+    height: 70px;
+    width: 100%;
+    background-color: aquamarine;
+    color: black;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.screen{
+    position: absolute;
+    animation-name: animate;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+
+@keyframes animate{
+    from{
+        left: 0px;
+
+    }
+    to{
+        left: 1120px;
+
+    }
+}
+
+
+
+
+.loader{
+   margin-top: 20%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 10px solid rgb(27, 142, 9);
+    border-top: 10px solid rgb(225, 179, 15);
+    animation-name: loader;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: -1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+
+}
+
+@keyframes loader{
+    from{
+       transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+
+    }
+} 

@@ -1,0 +1,26 @@
+div{
+    overflow-x: auto;
+}
+caption{
+    text-align: center;
+    font-size: 100px;
+}
+table,th,td{
+    margin: auto;
+    border: 5px solid gainsboro ;
+    padding: 5px;
+    border-collapse: collapse;
+}
+th{
+    background-color: rgb(230, 141, 25);
+    text-align: center;
+}
+
+tr:nth-child(odd){
+background-color: beige;    
+}
+
+tr:hover {
+    background-color: bisque;
+    font-size: 105%;
+}

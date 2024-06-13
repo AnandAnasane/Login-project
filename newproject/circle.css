@@ -1,0 +1,33 @@
+#one{
+    padding: 50px;
+    height: 800px;
+    width: 300px;
+    background-color: bisque;
+}
+#two{
+text-align: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: red;
+    padding-top: 10px;
+    margin: 20px;
+}
+#three{
+    text-align: center;
+    padding-top: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: green;
+margin: 20px;
+}
+#four{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    padding-top: 10px;
+    border-radius: 50%;
+    background-color: blue;
+margin: 20px;
+}

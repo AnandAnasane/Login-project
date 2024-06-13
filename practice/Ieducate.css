@@ -1,0 +1,631 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.head{
+    height: 120vh;
+    width: 100%;
+    background-image: url('/iEducate/image/image01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    position: sticky;
+}
+main{
+    height: 400vh;
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url('/iEducate/image/edu1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 20px;
+    border: 2px solid white;
+}
+.list ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 22px;  
+
+}
+.list ul li:hover{
+    color: rgb(215, 196, 196);
+    cursor: pointer;
+}
+.list ul li {
+    margin-right: 100px;
+}
+.search{
+    width: 20%;
+}
+.text{
+    width: 210px;
+    height: 23px;
+    border-radius: 5px;
+    padding: 0px 5px;
+    background-color: transparent;
+}
+.btn{
+    height: 25px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.intro{
+    height: 200px;
+    width: 600px;
+    position: absolute;
+    right: 10px;
+    padding: 0px 20px;
+    margin-top: 15%;
+}
+.intro p{
+    font-size: 35px;
+    font-family: sans-serif;   
+    /* line-height: 45px;  */
+}
+.btn2, .btn3{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.btn3{
+    text-decoration: none;
+    color: black;
+}
+.info{
+    height: 25px;
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    font-weight: 500;
+    color: white;
+}
+.info a{
+    text-decoration: none;
+    color: green;
+}
+
+main{
+    height: 176vh;
+    width: 100%;
+    background-color: rgba(255, 228, 196, 0.308);
+}
+
+
+
+.one{
+    height: 250px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    border-left: 3px dotted gray;
+    border-bottom: 3px dotted gray;
+    border-right: 3px dotted gray;
+    border-radius: 10px;
+  
+}
+.para1{
+    font-size: 22px;
+    width: 70%;
+}
+.one img{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+}
+/* .one:hover{
+    background-image: url(/iEducate/image/part1.jpg);
+    height: 250px;
+    width: 90%;
+    opacity: 0.8;
+    color: white;
+    border: none;
+
+}
+.one img:hover{
+    border: 4px solid white;
+} */
+
+.two{
+    height: 250px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+    flex-direction: row-reverse;
+    border-left: 3px dotted gray;
+    border-bottom: 3px dotted gray;
+    border-right: 3px dotted gray;
+    border-radius: 10px;
+  
+}
+.para2{
+    font-size: 22px;
+    width: 70%;
+}
+.two img{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* .two:hover{
+    background-image: url(/iEducate/image/part1.jpg);
+    height: 250px;
+    width: 90%;
+    opacity: 0.8;
+    color: white;
+    border: none;
+
+}
+.two img:hover{
+    border: 4px solid white;
+} */
+
+.three{
+    height: 250px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+    border-left: 3px dotted gray;
+    border-bottom: 3px dotted gray;
+    border-right: 3px dotted gray;
+    border-radius: 10px;
+  
+}
+.para3{
+    font-size: 22px;
+    width: 70%;
+}
+.three img{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* .three:hover{
+    background-image: url(/iEducate/image/part1.jpg);
+    height: 250px;
+    width: 90%;
+    opacity: 0.8;
+    color: white;
+    border: none;
+
+}
+.three img:hover{
+    border: 4px solid white;
+} */
+
+.four{
+    height: 250px;
+    width: 90%;
+    margin: auto;
+   display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+    flex-direction: row-reverse;
+    border-left: 3px dotted gray;
+    border-bottom: 3px dotted gray;
+    border-right: 3px dotted gray;
+    border-radius: 10px;
+  
+}
+.para4{
+    font-size: 22px;
+    width: 70%;
+}
+.four img{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+/* .four:hover{
+    background-image: url(/iEducate/image/part1.jpg);
+    height: 250px;
+    width: 90%;
+    opacity: 0.8;
+    color: white;
+    border: none;
+
+}
+.four img:hover{
+    border: 4px solid white;
+} */
+
+
+.five{
+    height: 250px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+    border-left: 3px dotted gray;
+    border-bottom: 3px dotted gray;
+    border-right: 3px dotted gray;
+    border-radius: 10px;
+  
+}
+.para5{
+    font-size: 22px;
+    width: 70%;
+}
+.five img{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+/* .five:hover{
+    background-image: url(/iEducate/image/part1.jpg);
+    height: 250px;
+    width: 90%;
+    opacity: 0.8;
+    color: white;
+    border: none;
+
+} */
+/* .five img:hover{    
+    border: 4px solid white;
+} */
+
+
+/* contact page */
+
+.contact{
+    height: 500px;
+    width: 100%;
+    background-color:rgb(128 128 128 / 7%);
+    padding-top: 20px;
+}
+.contact h6{
+  text-align: center;
+  font-size: 40px;
+  margin: 30px;
+}
+.contact p{
+    text-align: center;
+}
+.form{
+    max-width: 700px;
+    margin: auto;
+}
+.form input{
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #080101;
+    margin: 20px;
+}
+.submit{
+    max-width: 700px;
+    margin: auto;
+    cursor: pointer;
+   
+}
+.btn4{
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #080101;
+    margin: 20px;
+}
+.map{
+    height: 470px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+}
+.mapName{
+    font-size: 17px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.location iframe{
+    border-radius: 20px;
+    width: 600px;
+    height: 450px;
+    border:3px double black;
+}
+.details{
+    width: 600px;
+    height: 450px;
+    position: absolute;
+    right: 20px;
+}
+.address{
+    height: 150px;
+    max-width: 200px;
+    margin: auto;
+}
+.address h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.address p{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.phone{
+    height: 100px;
+    max-width: 200px;
+    margin: auto;
+}
+.phone h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.phone p{
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.operation{
+    height: 200px;
+    max-width: 200px;
+    margin: auto;
+
+}
+.operation h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.operation p{
+    font-size: 17px;
+    margin-bottom: 3px;
+}
+
+.social{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(19 8 8 / 40%);
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social i{
+    margin-right: 10px;
+}
+.copyright{
+    height: 25px;
+    background-color: rgba(128, 128, 128, 0.443);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* Responsive designs */
+
+
+
+@media only screen and (max-width:700px){
+    .head{
+        display: flex;
+        padding: 0px;
+        height: 100vh;
+    }
+    .navbar{
+        display: block;
+        color: white;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .logo{
+        margin-bottom: 30px;
+        height: 50px;
+        width: 50px;
+    }
+    .list ul{
+        display: block;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    
+    .list ul li{
+        margin-bottom: 20px;
+    }
+    .text{
+        display: none;
+        background-color: white;
+        width: 50px;
+    }
+    .btn1{
+        display: none;
+    }
+    .intro{
+        display: none;
+        /* height: 400px;
+        width: 250px;
+        position: relative;
+        color: white;
+        padding: 0px;
+        margin-top: 2%;
+        font-weight: 700; */
+    }
+    .info{
+        position: absolute;
+        bottom: 5px;
+    }
+    .para p{
+        font-size: 20px;
+        color: black;
+        
+    }
+    .btn{
+        background-color: rgb(220, 168, 56);
+    }
+
+
+    /* main section with sections */
+    
+    main {
+        height: 300vh;
+    }
+
+
+    .one{
+        height: 200px;
+        margin-bottom: 30px;
+        width: 95%;
+    }
+    .para1{
+        font-size: 17px;
+
+    }  
+    .one img{
+        height: 150px;
+        width: 150px;
+        border: 2px solid black;
+        border-radius: 22px;
+    }
+
+
+    .two{
+        height: 200px;
+        margin-bottom: 30px;
+        width: 95%;
+    }
+    .para2{
+        font-size: 17px;
+
+    }  
+    .two img{
+        height: 150px;
+        width: 150px;
+        border: 2px solid black;
+        border-radius: 22px;
+    }
+
+
+
+    .three{
+        height: 200px;
+        margin-bottom: 30px;
+        width: 95%;
+    }
+    .para3{
+        font-size: 17px;
+
+    }  
+    .three img{
+        height: 150px;
+        width: 150px;
+        border: 2px solid black;
+        border-radius: 22px;
+    }
+
+
+    .four{
+        height: 200px;
+        margin-bottom: 30px;
+        width: 95%;
+    }
+    .para4{
+        font-size: 17px;
+
+    }  
+    .four img{
+        height: 150px;
+        width: 150px;
+        border: 2px solid black;
+        border-radius: 22px;
+    }
+
+
+
+    .five{
+        height: 200px;
+        margin-bottom: 30px;
+        width: 95%;
+    }
+    .para5{
+        font-size: 17px;
+
+    }  
+    .five img{
+        height: 150px;
+        width: 150px;
+        border: 2px solid black;
+        border-radius: 22px;
+    }
+    .form {
+        max-width: 500px;
+        margin: auto;
+    }
+    .submit {
+        max-width: 500px;
+        margin: auto;
+        cursor: pointer;
+    }
+    .map {
+        height: 320px;
+    }
+
+    .location iframe{
+        width: 300px;
+        height: 300px;
+    }
+    .details {
+        width: 300px;
+        height: 300px;
+    }
+    .operation {
+        visibility: hidden;
+    }
+
+
+}

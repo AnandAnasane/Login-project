@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.panel1{
+  height: 56px;
+  width: 100%;
+  background-color: pink;
+}
+.logo{
+  height: 56px;
+  width: 100px;
+  background-color: black;
+}

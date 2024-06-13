@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    border: border-box;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.panel1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    height: 4.5rem;
+    
+}
+.panel1 i{
+    font-size: 2.5rem;
+    color: gray;
+}
+.panel1 h1{
+    font-size: 2.6rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-weight: 100;
+}
+.panel1 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+
+
+
+/* Main section */
+main{
+    background-color: rgba(128, 128, 128, 0.153);   
+    height:300rem;
+}
+.img-sec{
+    background-image: url(/photography/hero_img.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+
+}
+.intro{
+    display: flex;
+
+}
+.intro1{
+    width: 60%;
+    height: 600px;
+    padding: 100px 200px 300px 100px;
+    font-size: 35px;
+    font-weight: 200;
+    line-height: 45px;
+
+}
+.intro2{
+    width: 40%;
+    height: 600px;
+    padding: 50px 100px 10px 150px;
+
+
+}
+.intro2 p{
+    position: relative;
+    top: 200px;
+    font-size: 19px;
+    line-height: 30px;
+
+}
+.hero{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.hero-one{
+    height: 700px;
+    width: 480px;
+    background-image: url('/photography/photo1_image.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 500px;
+    padding: 50px 80px;
+    font-size: 16px;
+    color: #fff;
+}
+.hero-two{
+    height: 700px;
+    width: 480px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 500px;
+    padding: 50px 80px;
+}
+.hero-two img{
+    height: 380px;
+    width: 245px;
+    margin-top: 180px;
+    margin-left: 100px;
+}
+.hero-two a{
+    font-size: 11px;
+    margin-left: 170px;
+    text-decoration: underline;
+    color: black;
+  
+}
+.hero-three{
+    height: 700px;
+    width: 480px;
+    /* background-color: greenyellow; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 500px;
+    padding: 50px 80px;
+}
+.hero-three img{
+    height: 380px;
+    width: 245px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.hero-three a{
+    font-size: 11px;
+    margin-left: 190px;
+    text-decoration: underline;
+    color: black;
+}
+
+
+.about{
+    height:800px;
+    width: 100%;
+    background-color: rgb(28, 121, 121);
+}
